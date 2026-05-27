@@ -1,7 +1,6 @@
-
 // creating new class
 public class Student {
-    //Properties
+    //Properties (Encapsulation)
     private int  id;
     private String firstName;
     private String lastName;
@@ -13,7 +12,7 @@ public class Student {
         this.lastName = lastName;
     }
 
-    //Getter
+    //Getter (Encapsulation)
     public int getId() {
         return id;
     }
@@ -26,7 +25,7 @@ public class Student {
         return firstName;
     }
 
-    //Setter
+    //Setter (Encapsulation)
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }

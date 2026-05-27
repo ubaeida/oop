@@ -5,5 +5,11 @@ public class Main {
         System.out.println(s1.getFirstName());
         System.out.println(s1.getLastName());
 
+        Dog dog = new Dog();
+
+        //Inherited this behavior from the Animal class
+        dog.sound();
+        //This behavior exists in Dog class
+        dog.bark();
     }
 }
