@@ -11,5 +11,9 @@ public class Main {
         dog.sound();
         //This behavior exists in Dog class
         dog.bark();
+
+        Cat cat = new Cat();
+        //Inherited this behavior from the Animal class but it behaves differently (Polymorphism)
+        cat.sound();
     }
 }
